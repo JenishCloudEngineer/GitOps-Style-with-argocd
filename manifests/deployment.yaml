@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: ghcr.io/jenishcloudengineer/gitops-node-app:latest
+        image: ghcr.io/jenishcloudengineer/gitops-node-app:2959eeec65b4a26ff3f48a4bfea34b3c5c69370f
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
